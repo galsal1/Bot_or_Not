@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chat Game: Human or AI?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>Chat Game</h1>
+  <div id="chatContainer" class="hidden">
+    <div id="chatMessages"></div>
+  </div>
+  <div id="timer" class="hidden">120</div>
+  <div id="inputContainer">
+    <input type="text" id="messageInput" placeholder="Type your message..." disabled>
+    <button id="sendButton" disabled>Send</button>
+  </div>
+  <div id="controls">
+    <button id="startButton">Start Chat</button>
+    <button id="restartButton" class="hidden">Restart</button>
+    <button id="stopButton" class="hidden">Stop Chat</button>
+  </div>
+  <!-- Final analysis result -->
+  <div id="finalAnalysis"></div>
+  <!-- User classification input -->
+  <div id="userClassification" class="hidden" >
+    <input type="text" id="commentInput" placeholder="Enter your comments if you have any">
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 0">
+      <div class="humanCheckbox-container">
+        <div class="humanCheckbox-container">
+          <input width="5px" type="checkbox" id="humanCheckbox" name="human" value="true" checked />
+          <label for="humanCheckbox">I am a Human!</label>
+        </div>
+
+      </div>
+    </div>
+    <button id="submitClassificationButton">Submit Classification</button>
+  </div>
+</div>
+<script src="/socket.io/socket.io.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
