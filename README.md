@@ -67,4 +67,4 @@ Results collected from human and AI conversations are saved in the `res/human` a
 
 ---
 
-© 2025 NOGK Labs – Created by Noy Netanel, Gal Salman, Kfir Sperber, and Ofir Stroll
+© 2025 NOGK Labs – Created by Noy Netanel, Ofir Strull, Gal Salman and Kfir Sperber 
