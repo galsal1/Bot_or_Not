@@ -2,6 +2,9 @@
 
 **Bot or Not?** is a gamified reverse Turing test experiment developed by NOGK Labs. In this setup, a language model must determine whether it is conversing with a human or another AI—flipping the classic Turing test on its head. The system supports both human–AI and AI–AI interactions, stores chat logs, and evaluates model introspection using various prompt conditions.
 
+### 📌 Disclaimer
+The name **NOGK Labs** is used throughout this project as a fictional placeholder inspired by the original *Human or Not?* paper. It simply represents the initials of the project creators — *Noy, Ofir, Gal, and Kfir* — and does not refer to a real organization or entity.
+
 ## 🔧 Project Structure
 
 ```
